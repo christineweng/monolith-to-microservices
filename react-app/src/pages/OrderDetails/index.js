@@ -89,7 +89,7 @@ export default function OrderDetails() {
               </Typography>
               {order.item &&
                 (
-                  <Typography key={item}>{item}</Typography>
+                  <Typography key={order.item}>{order.item}</Typography>
                 )}
             </Grid>
           </Grid>
