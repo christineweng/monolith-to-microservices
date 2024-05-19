@@ -87,10 +87,10 @@ export default function OrderDetails() {
               <Typography component="p">
                 <b>Order Items: </b>
               </Typography>
-              {order.items &&
-                order.items.map((item) => (
+              {order.item &&
+                (
                   <Typography key={item}>{item}</Typography>
-                ))}
+                )}
             </Grid>
           </Grid>
         </Paper>

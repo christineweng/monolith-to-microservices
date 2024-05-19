@@ -1,0 +1,9 @@
+{
+    "rds_host": "34.16.44.18",
+    "rds_port": "3306",
+    "rds_user": "admin",
+    "rds_password": "changeme",
+    "rds_db": "store",
+    "server_host": "127.0.0.1",
+    "server_port": "8080"
+  }

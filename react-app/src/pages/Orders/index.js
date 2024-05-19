@@ -95,7 +95,7 @@ export default function Orders() {
                   </TableCell>
                   <TableCell>{order.date}</TableCell>
                   <TableCell>
-                    {(order.items && order.items.length) || 0}
+                    {(order.item && 1) || 0}
                   </TableCell>
                   <TableCell>${order.cost}</TableCell>
                 </TableRow>
