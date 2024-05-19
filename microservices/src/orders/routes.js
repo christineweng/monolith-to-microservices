@@ -1,5 +1,5 @@
 const config = require("./config.json");
-const mysql = require("promise-mysql");
+const mysql = require("mysql");
 
 // const createTcpPool = async config => {
 //     const dbConfig = {
